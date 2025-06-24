@@ -1,0 +1,35 @@
+.settings-container {
+  padding: 16px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.settings-container h4 {
+  margin: 0 0 12px 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.data-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.data-actions .ant-btn {
+  flex: 1;
+}
+
+.submit-button {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+/* 表单项间距调整 */
+.settings-container .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.settings-container .ant-divider {
+  margin: 24px 0 20px;
+}

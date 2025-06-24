@@ -1,0 +1,31 @@
+/* 侧边栏容器样式 */
+#wechat-mp-assistant-sidebar {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+}
+
+#wechat-mp-assistant-sidebar.open {
+  right: 0;
+}
+
+/* 覆盖公众号编辑器的一些样式，避免冲突 */
+#wechat-mp-assistant-sidebar * {
+  box-sizing: border-box;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  #wechat-mp-assistant-sidebar {
+    width: 100%;
+    right: -100%;
+  }
+}

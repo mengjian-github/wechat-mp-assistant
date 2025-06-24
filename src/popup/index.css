@@ -1,0 +1,66 @@
+.popup-container {
+  width: 350px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+}
+
+.popup-header {
+  background: linear-gradient(135deg, #1a73e8 0%, #1557b0 100%);
+  color: white;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+.popup-header h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.popup-header p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.popup-content {
+  flex: 1;
+  padding: 20px;
+  background: white;
+}
+
+.popup-footer {
+  padding: 12px 20px;
+  text-align: center;
+  border-top: 1px solid #e8e8e8;
+  background: white;
+}
+
+.popup-footer a {
+  color: #666;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.popup-footer a:hover {
+  color: #1a73e8;
+}
+
+/* 按钮样式调整 */
+.popup-content .ant-btn {
+  height: 40px;
+  font-size: 15px;
+}
+
+.popup-content .ant-btn-primary {
+  background: #1a73e8;
+  border-color: #1a73e8;
+}
+
+.popup-content .ant-btn-primary:hover {
+  background: #1557b0;
+  border-color: #1557b0;
+}
